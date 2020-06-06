@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Anton", sans-serif;
+    overflow: hidden;
+}
+
+body{
+    /*background: rgb(2,0,36);*/
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,80,62,1) 0%, rgba(0,212,255,1) 100%);
+    background-attachment: fixed;
+    align-items: center;
+}
+
+button{
+    width: 6rem;
+    height: 3rem;
+    border-radius: 0.5rem;
+    border-style: none;
+    font-size: 0.9rem;
+}
+
+li{
+    background-color:  white;
+    color: black;
+    margin: 0.5rem;
+    padding: 1rem 0.7rem;
+    border-radius: 0.25rem;
+    font-size: 1.5rem;
+}
+
+.title{
+    margin: 0.5rem 1.5rem;
+    color: white;
+    font-family: "Pacifico", cursive;
+    font-size: 3rem;
+    font-weight: 200;
+    text-align: center;
+}
+
+#task{
+    background: transparent;
+    border: none;
+    border-bottom:  2px solid white;
+    text-align: center;
+    margin-right: 1rem;
+    color: white;
+    width: 25rem;
+    font-size: 1.2rem;
+}
+
+.task-summary{
+    color: white;
+    text-align: center;
+}
+
+.todo{
+    margin: auto;
+    margin-bottom: 1rem;
+    width: 35rem;
+    height: 3rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#list{
+    width: 40rem;
+    margin: auto;
+}
